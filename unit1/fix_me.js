@@ -1,5 +1,3 @@
-// 여러분들이 tree-UI를 만드셔야 할 메뉴판입니다.
-// menu는 수정하지 않고, createTreeView 함수만 수정하세요.
 
 const menu = [
   {
@@ -166,9 +164,6 @@ const menu = [
     ],
   },
 ];
-
-// TODO: createTreeView 함수를 재귀(자기 자신을 계속 부르게 함)호출하여 테스트케이스를 통과하세요.
-// GOAL: 최종 결과가 resut.html와 같은 모습으로 나와야 합니다.
 
 const root = document.getElementById('root');
 function createTreeView(menu, currentNode) {
